@@ -1,0 +1,20 @@
+// 对样式的封装
+// width
+.w(@px) {
+    width: unit(@px/@remSize, rem);
+}
+
+// height
+.h(@px) {
+    height: unit(@px/@remSize, rem);
+}
+
+// line-height
+.l_h(@px) {
+    line-height: unit(@px/@remSize, rem);
+}
+
+// top
+.top(@px) {
+    top: unit(@px/@remSize, rem);
+}
